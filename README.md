@@ -1,7 +1,7 @@
 # ConsumerMicroservice
 
 
-POST
+POST Request
 http://localhost:2222/register
 content-type:application/json
 {
@@ -12,7 +12,7 @@ content-type:application/json
   "address": "somewhere"
 }
 
-Response
+Response 
 {
 "id": 3,
 "email": "test@test.de",
