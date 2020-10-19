@@ -1,7 +1,8 @@
 # ConsumerMicroservice
 
+1. POST REST API
 
-POST Request
+Request
 http://localhost:2222/register
 content-type:application/json
 {
@@ -23,7 +24,9 @@ Response
 }
 
 
-GET Request
+2. GET REST API
+
+Request
 http://localhost:2222/3
 content-type:application/json
 
