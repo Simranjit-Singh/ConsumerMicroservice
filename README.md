@@ -1,6 +1,13 @@
 # ConsumerMicroservice
 
-1. POST REST API
+Create Consumer Microservice which finds the producer service instance registered with Discovery Service
+
+1. Register itself with Discovery Service
+2. @EnableDiscoveryClient activates the Netflix Eureka DiscoveryClient implementation
+3. Requests for DiscoveryClient instance of Producer Microservice using a smart RestTemplate.
+
+
+A. POST REST API
 
 Request
 http://localhost:2222/register
@@ -24,7 +31,7 @@ Response
 }
 
 
-2. GET REST API
+B. GET REST API
 
 Request
 http://localhost:2222/3
@@ -42,7 +49,8 @@ Response
 
 
 
-
 Discovery Server : https://github.com/Simranjit-Singh/discoveryserver
+
 Consumer Microservice : https://github.com/Simranjit-Singh/ConsumerMicroservice
+
 Producer Microservice : https://github.com/Simranjit-Singh/ProducerMicroservice
